@@ -4,7 +4,7 @@ class numberXchng{
     int x , y;
     public:
     numberXchng(){}
-    numberXchng(int x , int y){  //paramterized constructor 
+    numberXchng(int x , int y){  //paramterized constructo   r 
         this->x = x;
         this->y = y;
     }

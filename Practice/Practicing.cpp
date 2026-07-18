@@ -7,12 +7,12 @@ int main()
  a= 10;
  b = 30;
  cout<<*(sum(&a , &b))<<endl;
-
+  
  return 0;
 } 
 int* sum(int* x , int* y){
   int z = 100;
   int *ptr;
   ptr = &z;
-  return ptr;
+  return ptr; 
 }

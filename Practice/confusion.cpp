@@ -5,7 +5,7 @@ int x,y;
 public:
 Point(){ }
 Point(int a, int b){x=a; y=b;}
- void update(Point p){
+ void update(Point p){    
     p.x=20; p.y=30;
 }
  void display(){
